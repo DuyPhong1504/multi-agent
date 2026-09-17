@@ -1,0 +1,22 @@
+[project]
+name = "multi-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "DuyPhong1504", email = "nguyenduyphong1504@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "langchain-core>=1.6.3",
+    "langchain-openai>=1.6.2",
+    "langgraph>=1.2.11",
+    "python-dotenv>=1.2.3",
+]
+
+[project.scripts]
+multi-agent = "multi_agent:main"
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"
