@@ -12,6 +12,7 @@ dependencies = [
     "langchain-openai>=1.6.2",
     "langgraph>=1.2.11",
     "python-dotenv>=1.2.3",
+    "streamlit>=1.45.0",
 ]
 
 [project.scripts]
